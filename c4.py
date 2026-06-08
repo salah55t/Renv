@@ -5,8 +5,8 @@ import os
 app = Flask(__name__)
 
 # ضع بيانات البوت الخاصة بك هنا أو استخدم متغيرات البيئة (Environment Variables)
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "YOUR_TELEGRAM_BOT_TOKEN")
-TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "YOUR_CHAT_ID")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8945425967:AAEveKpqSEib2iZ5aT4mOAX5og5j2-uc_MU")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "6624995237")
 
 # مسار للحفاظ على السيرفر مستيقظاً (يتم استدعاؤه بواسطة Cron-job)
 @app.route('/ping', methods=['GET'])
